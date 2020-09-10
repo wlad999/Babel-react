@@ -1,6 +1,6 @@
 class App {
 
-    run = (name = "World") => {
+    run = async (name = "World") => {
         console.log(`Hello ${name}`)
     }
 
@@ -9,3 +9,7 @@ class App {
 
 const app = new App();
 app.run()
+    .then(() => console.log("DONE"))
+    .catch(() => console.log("ERROR!"))
+
+//npx babel src --out-dir build
