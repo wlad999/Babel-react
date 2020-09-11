@@ -3,11 +3,11 @@
     [
       "@babel/env",
       {
-        "debug": true,
-        "targets": [
-          "> 0.3%",
-          "not ie > 0"
-        ]
+        "debug": true
+//        "targets": [
+//          "> 0.3%",
+//          "not ie > 0"
+//        ]
       }
     ]
   ],
