@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67900283-3f50-4928-8a47-5c451b3dca74" name="Default Changelist" comment="162.2 browserlist in .browserslistrc">
+    <list default="true" id="67900283-3f50-4928-8a47-5c451b3dca74" name="Default Changelist" comment="163 yarn add core-js for using polyfills">
       <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.js" afterDir="false" />
@@ -64,7 +64,7 @@
       <workItem from="1599649586774" duration="4220000" />
       <workItem from="1599721625703" duration="58000" />
       <workItem from="1599743380119" duration="4874000" />
-      <workItem from="1599805244840" duration="3808000" />
+      <workItem from="1599805244840" duration="4625000" />
     </task>
     <task id="LOCAL-00001" summary="159 Babel presets">
       <created>1599743516428</created>
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599806685670</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="163 yarn add core-js for using polyfills">
+      <created>1599813312101</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599813312101</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +147,8 @@
     <MESSAGE value="161.1 dynamic browser selection &quot;&gt; 0.3%&quot;,&quot;not ie &gt; 0&quot;" />
     <MESSAGE value="162 browserlist in .babelrc or in package.json" />
     <MESSAGE value="162.2 browserlist in .browserslistrc" />
-    <option name="LAST_COMMIT_MESSAGE" value="162.2 browserlist in .browserslistrc" />
+    <MESSAGE value="163 yarn add core-js for using polyfills" />
+    <option name="LAST_COMMIT_MESSAGE" value="163 yarn add core-js for using polyfills" />
   </component>
   <component name="WindowStateProjectService">
     <state x="644" y="291" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599806090138">
@@ -155,10 +163,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599743403270" />
-    <state x="451" y="181" key="Vcs.Push.Dialog.v2" timestamp="1599806967921">
+    <state x="451" y="181" key="Vcs.Push.Dialog.v2" timestamp="1599813314502">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599754741762" />
-    <state x="451" y="181" key="Vcs.Push.Dialog.v2/0.0.1920.1030@0.0.1920.1030" timestamp="1599806967921" />
+    <state x="451" y="181" key="Vcs.Push.Dialog.v2/0.0.1920.1030@0.0.1920.1030" timestamp="1599813314502" />
   </component>
 </project>

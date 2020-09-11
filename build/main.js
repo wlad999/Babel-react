@@ -1,20 +1,30 @@
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 //Для того чтобы "@babel/preset-env" знал куда надо добавлять полифилы
 // import 'core-js'
+//для "useBuiltIns": "entry" in(.babelrc)
 //babel заменит строку выше (в build/main.js)на список необходимых полифилов
-class App {
-  constructor() {
-    _defineProperty(this, "run", async (name = "World") => {
-      console.log(`Hello ${name}`);
-      console.log([1, 2, [3, 4]].flat());
-    });
-  }
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-}
+const App = () => /*#__PURE__*/React.createElement("p", null, "Hello");
 
-const app = new App();
-app.run().then(() => console.log("DONE")).catch(() => console.log("ERROR!")); // собирает проект на ES5
+ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById('root')); //yarn add @babel/preset-react
+// этот пресет содержит несколько плагинов, которые обраюабатывают jsx код
+// добавить его в .babelrc
+// class App {
+//
+//     run = async (name = "World") => {
+//         console.log(`Hello ${name}`)
+//         console.log([1, 2, [3, 4]].flat())
+//     }
+//
+//
+// }
+//
+// const app = new App();
+// app.run()
+//     .then(() => console.log("DONE"))
+//     .catch(() => console.log("ERROR!"))
+// собирает проект на ES5
 //npx babel src --out-dir build
 // - показывает какие броузеры потдерживает проект
 //npx browserslist
